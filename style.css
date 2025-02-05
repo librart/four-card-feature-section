@@ -221,6 +221,11 @@ strong {
   .header {
     margin-inline: 18vw;
   }
+
+  .header-title {
+    font-size: 2.25rem;
+    letter-spacing: 0.25px;
+  }
 }
 
 @media (min-width: 75rem) {
