@@ -182,12 +182,8 @@ strong {
 } */
 
 @media (min-width: 37.5rem) {
-  body {
-    padding: 80px 165px;
-  }
-
   .header {
-    margin-inline: 285px;
+    margin-inline: 32vw;
   }
 
   .cards {
@@ -214,5 +210,25 @@ strong {
   .calculator {
     grid-row: 1 / 3;
     align-self: center;
+  }
+}
+
+@media (min-width: 62rem) {
+  body {
+    padding: 80px 165px;
+  }
+
+  .header {
+    margin-inline: 18vw;
+  }
+}
+
+@media (min-width: 75rem) {
+  body {
+    padding: 80px 165px;
+  }
+
+  .header {
+    margin-inline: 285px;
   }
 }
