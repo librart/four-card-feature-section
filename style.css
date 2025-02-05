@@ -197,6 +197,10 @@ strong {
     gap: 40px;
   }
 
+  .card-title {
+    margin-block-end: 8px;
+  }
+
   .icon {
     width: 64px;
     height: 64px;
@@ -224,6 +228,7 @@ strong {
 
   .header-title {
     font-size: 2.25rem;
+    line-height: 1.45;
     letter-spacing: 0.25px;
   }
 }
