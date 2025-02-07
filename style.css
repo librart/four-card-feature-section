@@ -183,8 +183,25 @@ strong {
 }
 
 @media (min-width: 37.5rem) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+@media (min-width: 62rem) {
+  body {
+    padding: 80px 165px;
+  }
+
   .header {
-    margin-inline: 32vw;
+    margin-inline: 18vw;
+  }
+
+  .header-title {
+    font-size: 2.25rem;
+    line-height: 1.45;
+    letter-spacing: 0.25px;
   }
 
   .cards {
@@ -218,27 +235,7 @@ strong {
   }
 }
 
-@media (min-width: 62rem) {
-  body {
-    padding: 80px 165px;
-  }
-
-  .header {
-    margin-inline: 18vw;
-  }
-
-  .header-title {
-    font-size: 2.25rem;
-    line-height: 1.45;
-    letter-spacing: 0.25px;
-  }
-}
-
 @media (min-width: 75rem) {
-  body {
-    padding: 80px 165px;
-  }
-
   .header {
     margin-inline: 285px;
   }
