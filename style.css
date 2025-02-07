@@ -173,13 +173,14 @@ strong {
   border-block-start: solid 3.5px var(--blue);
 }
 
-/* .attribution {
+.attribution {
   font-size: 11px;
   text-align: center;
+  margin: 16px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-} */
+}
 
 @media (min-width: 37.5rem) {
   .header {
